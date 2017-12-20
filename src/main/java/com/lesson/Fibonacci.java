@@ -21,10 +21,7 @@ public class Fibonacci {
 		
 		for(int i=0; i<n; i++) {
 			
-			if(i==0) {
-				array[i]=0;
-			}
-			else if(i==1) {
+			if(i==0 || i==1) {
 				array[i]=1;
 			}
 			else {
@@ -33,7 +30,7 @@ public class Fibonacci {
 		}
 
     	int index = array.length-1;
-    	return (int)array[index];
+    	return array[index];
     	
     	
     }
