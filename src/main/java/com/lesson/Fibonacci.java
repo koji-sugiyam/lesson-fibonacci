@@ -16,7 +16,7 @@ public class Fibonacci {
 
     private int calc(int n) {
         // write the awesome code
-    	
+    	/*
     	int[] array = new int[n];
 		
 		for(int i=0; i<n; i++) {
@@ -31,6 +31,15 @@ public class Fibonacci {
 
     	int index = array.length-1;
     	return array[index];
+    	*/
+    	
+    	
+    	//回答
+    	//再帰のテクニック
+    	/*
+    	 * 1つ前と２つ前のそれぞれの数の場合の結果を足して返す
+    	 */
+    	return n <= 1 ? n : (calc(n - 2) + calc(n - 1));
     	
     	
     }
