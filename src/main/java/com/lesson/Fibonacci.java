@@ -16,6 +16,8 @@ public class Fibonacci {
 
     private int calc(int n) {
         // write the awesome code
+
+    	//回答
     	/*
     	int[] array = new int[n];
 		
@@ -34,7 +36,7 @@ public class Fibonacci {
     	*/
     	
     	
-    	//回答
+    	//答え
     	//再帰のテクニック
     	/*
     	 * 1つ前と２つ前のそれぞれの数の場合の結果を足して返す
